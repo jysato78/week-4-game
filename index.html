@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Collect the Gems: The Game</title>
+ 
+	
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- JQuery --> 
+  <script src="https://code.jquery.com/jquery.js"></script>
+	
+</head>
+<body background="wet_snow.png">
+<div class="bg-info text-white" class="panel panel-default">
+<div class="panel-heading">
+            <h3>Number to Match</h3>
+            <h2 id="match"></h2>
+
+</div>
+</div>
+<div class="row">
+	<div class="col-lg-3">
+		<div class="bg-primary text-white" class="panel panel-default">
+		<div class="panel-heading">
+            <h3>Wins</h3>
+            <h1 id="wins"></h1>
+            <h3>Losses</h3>
+            <h1 id="losses"></h1>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-6">
+		<div class="bg-info text-white" class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"></h3>
+            <h3>Click on a gem</h3>
+          </div>
+          <div class="panel-body">
+            <div class="text-center">
+              <button class="btn btn-danger btn-lg red-crystal">Ruby</button>
+              <button class="btn btn-primary btn-lg blue-crystal">Sapphire</button>
+              <button class="btn btn-warning btn-lg yellow-crystal">Citrine</button>
+              <button class="btn btn-success btn-lg green-crystal">Emerald</button>
+            </div>
+          </div>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="bg-success text-white" class="panel panel-default">
+			<div class="panel-heading">
+            	<h3 class="yourScore">Your Score</h3>
+       			<h2 id="yourScore"></h2>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
